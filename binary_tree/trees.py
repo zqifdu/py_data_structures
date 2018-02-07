@@ -2,6 +2,7 @@
 Author: Zhenyi Qi
 link:
 """
+from functools import wraps
 
 class node(object):
     '''
@@ -15,20 +16,33 @@ class node(object):
 
 
 class binary_tree(object):
+    '''
+    A binary tree
+    '''
+
     def __init__(self):
         self.root = None
         self.nodes = {}
         self.num_nodes = len(self.nodes)
 
 
+    def _update_num_nodes(func):
+        @wraps(func)
+        def _num_nodes_wrapper(self, *args, **kwargs):
+            results = func(self, *args, **kwargs)
+            self.num_nodes = len(self.nodes)
+            return results
+        return _num_nodes_wrapper
+
+
+    @_update_num_nodes
     def set_root(self, root):
         if isinstance(root, int):
             root = node(root)
         self.root = root
         self.nodes = {root.key: root}
-        self.num_nodes = len(self.nodes)
 
-
+    @_update_num_nodes
     def add_edge(self, parent, child, left_or_right = 'left'):
         if isinstance(parent, int):
             parent = self.nodes[parent]
@@ -36,8 +50,8 @@ class binary_tree(object):
             child = self.nodes.get(child, node(child))
 
         self.nodes[child.key] = child
+        self.nodes[child.key].parent = parent
 
-        self.num_nodes = len(self.nodes)
         if left_or_right == 'left':
             parent.left = child
         else:
@@ -88,6 +102,7 @@ class binary_tree(object):
 
         return in_order_list
 
+
     def post_order(self, root):
         '''
         Post order traversal of the binary tree
@@ -109,8 +124,68 @@ class binary_tree(object):
 
         return post_order_list
 
+
+    def level_order(self, root, depth, depth_dict):
+        '''
+        Level-order traversal of a tree
+        Parameters
+        ----------
+        root        : root of a tree or a subtree
+        depth       : depth of current node in the whole tree
+        depth_dict  : depth_dict of the whole tree
+
+        Returns
+        -------
+        depth_dict
+        '''
+
+        if depth in depth_dict:
+            depth_dict.get(depth).append(root.key)
+        else:
+            depth_dict[depth] = [root.key]
+        if root.left:
+            self.level_order(root.left, depth + 1, depth_dict)
+        if root.right:
+            self.level_order(root.right, depth + 1, depth_dict)
+
+        return depth_dict
+
+
+    def vertical_order(self, root, vert_coord , vert_dict):
+        if root is None:
+            return
+        try:
+            vert_dict[vert_coord].append(root.key)
+        except:
+            vert_dict[vert_coord] = [root.key]
+
+        self.vertical_order(root.left, vert_coord - 1, vert_dict)
+        self.vertical_order(root.right, vert_coord + 1, vert_dict)
+
+        return vert_dict
+
+    def top_view(self, root):
+        '''
+        Return a list of keys of nodes that can be seen from the top.
+        Parameters
+        ----------
+        root
+
+        Returns
+        -------
+
+        '''
+        vert_dict = self.vertical_order(root, 0, {})
+        top_view_list = []
+        for vert_coord in sorted(vert_dict.keys()):
+            top_view_list.append(vert_dict[vert_coord][0])
+
+        return top_view_list
+
+
     def lca(self, n1, n2):
         '''
+        Find the lowest common ancerstry of n1 and n2; application of pre-order and post-order traversal
         Parameters
         ----------
         n1: node 1
@@ -145,4 +220,9 @@ class binary_tree(object):
         lowest_common_ance = self.nodes[key_lowest_common_ance]
 
         return lowest_common_ance
+
+
+
+
+
 
