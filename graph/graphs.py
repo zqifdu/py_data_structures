@@ -31,6 +31,9 @@ class vertex(object):
         # Finish time in a DFS
         self.ft = -1
 
+
+
+
 class graph(object):
     '''
     Unweighted bidirection graph.
@@ -39,7 +42,8 @@ class graph(object):
         self.num_v = 0
         self.vertices = {}
         self.root = None
-
+        self.time = 0
+        self.dfs_ft_list = {}
 
     def _update_num_v(func):
         @wraps(func)
@@ -72,8 +76,10 @@ class graph(object):
         if v2 not in self.vertices:
             self.vertices[v2] = vertex(v2)
 
-        self.vertices[v1].neighbors.append(self.vertices[v2])
-        self.vertices[v2].neighbors.append(self.vertices[v1])
+        if self.vertices[v2] not in self.vertices[v1].neighbors:
+            self.vertices[v1].neighbors.append(self.vertices[v2])
+        if self.vertices[v1] not in self.vertices[v2].neighbors:
+            self.vertices[v2].neighbors.append(self.vertices[v1])
 
 
 
@@ -152,4 +158,84 @@ class graph(object):
         self.time += 1
         v.ft = self.time
 
-    
+
+
+class directed_graph(graph):
+    '''
+    directed graph
+    '''
+
+    @graph._update_num_v
+    def add_edge(self, v1, v2):
+        if self.vertices == {}:
+            self.root = vertex(v1)
+            self.vertices[v1] = self.root
+
+        if v1 not in self.vertices:
+            self.vertices[v1] = vertex(v1)
+        if v2 not in self.vertices:
+            self.vertices[v2] = vertex(v2)
+
+        if self.vertices[v2] not in self.vertices[v1].neighbors:
+            self.vertices[v1].neighbors.append(self.vertices[v2])
+
+
+    def strong_connect(self):
+        # The transpose of self
+        graph_T = self.transpose()
+
+        # Set the finishing time of all the vertices by DFS
+        self.DFS_recursive()
+
+        forest_T = {}
+        # DFS in reversed order of finishing time
+        for ft in sorted(self.dfs_ft_list.keys())[::-1]:
+            u_key = self.dfs_ft_list[ft]
+            u_in_grpha_T = graph_T.vertices[u_key]
+
+            # if u is undiscovered
+            if u_in_grpha_T.color == 'white':
+                forest_T[u_in_grpha_T.key] = []
+                graph_T._DFS_visit(u_in_grpha_T, forest_T[u_in_grpha_T.key])
+
+        return forest_T
+
+
+    @graph._re_color
+    def DFS_recursive(self, re_color = True):
+        self.dfs_ft_list = {}
+        self.time = 0
+        forest = {}
+        for s in self.vertices.values():
+            s.pi = None
+            if s.color == 'white':
+                forest[s.key] = []
+                self._DFS_visit(s, forest[s.key])
+
+        return forest
+
+
+    def _DFS_visit(self, v, tree):
+        self.time += 1
+        v.dt = self.time
+        v.color = 'gray'
+        tree.append(v.key)
+        for neighbor in v.neighbors:
+            if neighbor.color == 'white':
+                self._DFS_visit(neighbor, tree)
+                neighbor.pi = v
+        self.time+= 1
+        v.ft = self.time
+        v.color = 'black'
+        self.dfs_ft_list[self.time] = v.key
+
+
+    def transpose(self):
+        graph_T = directed_graph()
+
+        for v_key, v_vertex in self.vertices.items():
+            for neighbor in v_vertex.neighbors:
+                neighbor_key = neighbor.key
+                graph_T.add_edge(neighbor_key, v_key)
+
+        return graph_T
