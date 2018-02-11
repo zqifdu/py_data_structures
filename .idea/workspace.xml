@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26567cb9-c7b8-4f8c-bcbe-352eb764167f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/longest_common_subsequence.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/longest_palindrome_subsequence.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/matrix_chain_multiplication.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/parenthesis_counting.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/rod_cutting.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic_programming/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sets/disjoint_set.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/graph/graphs.py" afterPath="$PROJECT_DIR$/graph/graphs.py" />
-      <change beforePath="$PROJECT_DIR$/graph/tests_graph.py" afterPath="$PROJECT_DIR$/graph/tests_graph.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,33 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trees.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dynamic_programming/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/graphs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="204" column="8" lean-forward="false" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
+            <state relative-caret-position="592">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="e#29#56#0" expanded="true" />
+                <element signature="e#52#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests_graph.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graph/tests_graph.py">
+      <file leaf-file-name="longest_common_subsequence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic_programming/longest_common_subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="888">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -66,11 +63,18 @@
         <option value="$PROJECT_DIR$/binary_tree/trees_test.py" />
         <option value="$PROJECT_DIR$/graph/graphs.py" />
         <option value="$PROJECT_DIR$/graph/tests_graph.py" />
+        <option value="$PROJECT_DIR$/sets/disjoint_set.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/parenthesis_counting.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/longest_palindrome_subsequence.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/rod_cutting.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/matrix_chain_multiplication.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/tests.py" />
+        <option value="$PROJECT_DIR$/dynamic_programming/longest_common_subsequence.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1921" />
+    <option name="x" value="-1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -90,6 +94,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -126,14 +133,24 @@
             <path>
               <item name="data_structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="py_data_structs" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py_data_structs" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py_data_structs" type="462c0819:PsiDirectoryNode" />
+              <item name="sets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests_graph">
+  <component name="RunManager" selected="Python tests.Nosetests for tests.dpTests">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,42 +188,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tests_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_data_structs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph/tests_graph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="trees_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/virtualenv_dataAnaly/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_tree" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="py_data_structs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_tree/trees_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,6 +198,81 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview_prep" />
+    </configuration>
+    <configuration name="Nosetests for tests.dpTests" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_data_structs" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.dpTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests for tests.dpTests.test_buttom_up_cut_rod" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_data_structs" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.dpTests.test_buttom_up_cut_rod&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests for tests.dpTests.test_buttom_up_cut_rod_solution" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_data_structs" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.dpTests.test_buttom_up_cut_rod_solution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests for tests.dpTests.test_matrix_chain" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_data_structs" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.dpTests.test_matrix_chain&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests in tests.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="py_data_structs" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/dynamic_programming/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,14 +350,20 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.trees_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tests_graph" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in tests.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_buttom_up_cut_rod" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_buttom_up_cut_rod_solution" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_matrix_chain" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.tests_graph" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trees_test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_buttom_up_cut_rod_solution" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_matrix_chain" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in tests.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for tests.dpTests.test_buttom_up_cut_rod" />
       </list>
     </recent_temporary>
   </component>
@@ -329,16 +391,48 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.10 at 22h 34m 17s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 10h 46m 01s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 10h 46m 30s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 11h 11m 32s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 11h 35m 59s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 11h 36m 29s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 11h 36m 44s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests - 2018.02.11 at 11h 36m 51s.xml">
+      <configuration name="Nosetests for tests.dpTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests_test_buttom_up_cut_rod_solution - 2018.02.11 at 10h 45m 53s.xml">
+      <configuration name="Nosetests for tests.dpTests.test_buttom_up_cut_rod_solution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_tests_dpTests_test_buttom_up_cut_rod_solution - 2018.02.11 at 10h 45m 56s.xml">
+      <configuration name="Nosetests for tests.dpTests.test_buttom_up_cut_rod_solution" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22064245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15481833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5018431" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.49815693" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -368,6 +462,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
@@ -378,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,9 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,9 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
           <caret line="149" column="25" lean-forward="true" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,29 +539,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/parenthesis_counting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/graphs.py">
+    <entry file="file://$PROJECT_DIR$/sets/disjoint_set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="204" column="8" lean-forward="false" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
-          <folding>
-            <element signature="e#29#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/tests_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="204" column="8" lean-forward="false" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/local/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="794" column="8" lean-forward="false" selection-start-line="794" selection-start-column="8" selection-end-line="794" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/rod_cutting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/matrix_chain_multiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/longest_palindrome_subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_tree/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/longest_common_subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic_programming/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
